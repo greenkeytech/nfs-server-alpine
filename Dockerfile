@@ -1,7 +1,9 @@
 FROM alpine:latest
-LABEL maintainer "Steven Iveson <steve@iveson.eu>"
-LABEL source "https://github.com/sjiveson/nfs-server-alpine"
+
+LABEL maintainer "GK tech <support@greenkeytech.com>"
+LABEL source "https://github.com/greenkeytech/nfs-server-alpine"
 LABEL branch "master"
+
 COPY Dockerfile README.md /
 
 ENV SYNC true
